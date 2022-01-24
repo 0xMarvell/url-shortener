@@ -52,8 +52,8 @@ func main() {
 
 	// Build the MapHandler using the mux as the fallback
 	pathsToUrls := map[string]string{
-		"/urlshort-godoc": "https://godoc.org/github.com/gophercises/urlshort",
-		"/yaml-godoc":     "https://godoc.org/gopkg.in/yaml.v2",
+		"/mytwt":      "https://twitter.com/RokeMarvellous",
+		"/yaml-godoc": "https://godoc.org/gopkg.in/yaml.v2",
 	}
 	mapHandler := urlshort.MapHandler(pathsToUrls, mux)
 
@@ -62,7 +62,7 @@ func main() {
 	yaml := `
 - path: /mygithub
   url: https://github.com/Marvellous-Chimaraoke
-- path: /urlshort-final
+- path: /sourcecode
   url: https://github.com/Marvellous-Chimaraoke/url-shortener
 `
 	yamlHandler, err := urlshort.YAMLHandler([]byte(yaml), mapHandler)
