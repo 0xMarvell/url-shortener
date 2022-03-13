@@ -9,17 +9,22 @@ A simple program that will look at the path of any incoming web request and dete
     ```
  - Make sure to have at least Go version 1.17.6 installed on your device
  - Open the code base directory in terminal
- - Run program. A server will start on port 8080
-    ```go
-    go run main/main.go
-    ```
+ - Run program. A server will start on port 8080:
+    - MacOS/linux
+      ```go
+      go build . && ./main
+      ```
+    - WIndows Powershell
+      ```go
+      go build .; ./main
+      ```
  - Open up a browser window and open a localhost page.
     ```
     localhost:8080
     ```
 
 ## Pages to expect
- - Add <code>/mytwt</code> to the current url path in your browser and it will redirect to <a href="https://twitter.com/RokeMarvellous">this page</a>
- - Add <code>/yaml-godoc</code> to the current url path in your browser and it will redirect to <a href="https://godoc.org/gopkg.in/yaml.v2">this page</a>
- - Add <code>/mygithub</code> to the current url path in your browser and it will redirect to <a href="https://github.com/Marvellous-Chimaraoke">this page</a>
- - Add <code>/sourcecode</code> to the current url path in your browser and it will redirect to <a href="https://github.com/Marvellous-Chimaraoke/url-shortener">this page</a>
+ - Add ```/mytwt``` to the current url path in your browser and it will redirect to [this page](https://twitter.com/RokeMarvellous)
+ - Add ```/yaml-godoc``` to the current url path in your browser and it will redirect to [this page](https://godoc.org/gopkg.in/yaml.v2)
+ - Add <code>/mygithub</code> to the current url path in your browser and it will redirect to [this page](https://github.com/Marvellous-Chimaraoke)
+ - Add <code>/sourcecode</code> to the current url path in your browser and it will redirect to [this page](https://github.com/Marvellous-Chimaraoke/url-shortener)
