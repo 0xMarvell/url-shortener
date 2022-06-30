@@ -44,7 +44,7 @@ import (
 	"fmt"
 	"net/http"
 
-	urlshort "github.com/Marvellous-Chimaraoke/url-shortener"
+	urlshort "github.com/0xMarvell/url-shortener"
 )
 
 func main() {

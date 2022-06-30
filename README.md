@@ -8,7 +8,7 @@ A simple program that will look at the path of any incoming web request and dete
 - Clone Repo.
 
     ```bash
-    git clone https://github.com/Marvellous-Chimaraoke/url-shortener.git
+    git clone https://github.com/0xMarvell/url-shortener.git
     ```
 
 - Make sure to have at least Go version 1.17.6 installed on your device
@@ -36,5 +36,5 @@ A simple program that will look at the path of any incoming web request and dete
 
 - Add ```/mytwt``` to the current url path in your browser and it will redirect to [this page](https://twitter.com/RokeMarvellous)
 - Add ```/yaml-godoc``` to the current url path in your browser and it will redirect to [this page](https://godoc.org/gopkg.in/yaml.v2)
-- Add `/mygithub` to the current url path in your browser and it will redirect to [this page](https://github.com/Marvellous-Chimaraoke)
-- Add `/sourcecode` to the current url path in your browser and it will redirect to [this page](https://github.com/Marvellous-Chimaraoke/url-shortener)
+- Add `/mygithub` to the current url path in your browser and it will redirect to [this page](https://github.com/0xMarvell)
+- Add `/sourcecode` to the current url path in your browser and it will redirect to [this page](https://github.com/0xMarvell/url-shortener)

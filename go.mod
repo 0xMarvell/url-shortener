@@ -1,4 +1,4 @@
-module github.com/Marvellous-Chimaraoke/url-shortener
+module github.com/0xMarvell/url-shortener
 
 go 1.17
 
