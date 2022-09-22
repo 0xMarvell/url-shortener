@@ -34,7 +34,7 @@ A simple program that will look at the path of any incoming web request and dete
 
 ## Pages to expect
 
-- Add ```/mytwt``` to the current url path in your browser and it will redirect to [this page](https://twitter.com/OxMarvell)
+- Add ```/mytwt``` to the current url path in your browser and it will redirect to [this page](https://twitter.com/0xMarvell)
 - Add ```/yaml-godoc``` to the current url path in your browser and it will redirect to [this page](https://godoc.org/gopkg.in/yaml.v2)
 - Add `/mygithub` to the current url path in your browser and it will redirect to [this page](https://github.com/0xMarvell)
 - Add `/sourcecode` to the current url path in your browser and it will redirect to [this page](https://github.com/0xMarvell/url-shortener)
